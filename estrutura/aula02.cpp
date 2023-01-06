@@ -25,7 +25,11 @@ int main()
     char unit;
     unit = 'b';
     cout << unit << endl;
-    
+
+    int idade;
+    cout << ("Qual a sua idade?\n");
+    cin >> idade;
+    cout <<"Idade = " << idade << endl;
     return 0;
 }
 
