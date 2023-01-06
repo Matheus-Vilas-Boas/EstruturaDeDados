@@ -1,6 +1,12 @@
 #include <iostream>
 
-int main(){
-    std::cout << "Hello world";
-    return 0 ;
+using namespace std; // std significa padrão
+
+int main()
+{
+    cout << "Hello world" << std::endl; // endl quebra linha 
+    cout << "My names is MATHEUS \n"; // /n quebra linha
+    system("pause"); //mantem a o programa aberto
+
+    return 0 ; 
 }
