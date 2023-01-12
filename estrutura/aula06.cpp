@@ -27,4 +27,10 @@ int main()
         {
             cout << "valor = " << resu  << " Reprovado"<< endl; 
         }
+
+        for ( int i = 1; i < 9; i++)
+        {
+            cout << "Valor de i = "<< i << endl;
+        }
+        
 }
