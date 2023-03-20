@@ -3,20 +3,12 @@
 using namespace std;
  
 int main() {
- 
-    int x, y, z;
-    cin >> x >> y >> z;
-
-    if ( x > y  && x > z)
-
-    cout << x <<"eh o maior\n";
-
-    if (y > x && y > z )
-
-    cout << y <<"eh o maior\n";
-
-    else 
-    cout << z <<"eh o maior\n";
- 
+    int a,b,c,MaiorAB,s,MAX;
+    cin>>a>>b>>c;
+        
+    MaiorAB=(a+b+abs(a-b))/2;
+    MAX=(MaiorAB+c+abs(MaiorAB-c))/2;
+    
+    cout<< MAX<<" eh o maior"<<endl;
     return 0;
 }
