@@ -10,35 +10,37 @@ int main() {
     cin >> q;
     cin >> c;
 
-    
-    if(q == 1)
+    switch (q)
     {
+    case 1:
         v = c * 4.00;
         cout << "Total: R$ " << v<< endl;
-    }
-    else if (q == 2)
-    {
+        break;
+
+    case 2:
+
         v = c * 4.50;
         cout << "Total: R$ " << v<< endl;
-    }
-    else if (q == 3)
-    {
+        break;
+
+    case 3:
         v = c * 5.00;
         cout << "Total: R$ " << v << endl;
-    }
-        else if (q == 4)
-    {
+        break;
+
+    case 4:
         v = c * 2.00;
         cout << "Total: R$ " << v<< endl;
-    }
-        else if (c == 5)
-    {
+        break;
+
+    case 5:
         v = q * 1.50;
         cout << "Total: R$ "<< v << endl;
-    }
-    else
-    {
+        break;
+        
+    default:
         cout << "Valor nao encontrado"<< endl;
+        break;
     }
  
     return 0;
