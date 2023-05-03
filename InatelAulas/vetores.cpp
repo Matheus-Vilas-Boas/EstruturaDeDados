@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int i;
-    //int popular;
+    int popular;
     int maior;
     int nseguidores[3];
 
@@ -18,9 +18,11 @@ int main()
         if (nseguidores[i] > maior)
         {
             maior = nseguidores[i];
+            popular = i;
         }
         
     }
     cout << "maior = " << maior << endl;
+    cout << "popular = " << popular << endl;
     return 0;
 }
