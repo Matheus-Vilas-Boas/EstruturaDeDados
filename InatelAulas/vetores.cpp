@@ -3,6 +3,27 @@
 using namespace std;
 int main()
 {
+    int notas[5];
+    int i;
+    float media;
+    int soma;
+
+    soma = 0;
+    for (i = 0; i < 5; i++)
+    {
+        cin >> notas[i];
+        
+    }
+    for (size_t i = 0; i < 5; i++)
+    {
+        soma = soma + notas[i];
+    }
+    media = soma / i;
+    cout << "media = " << media << endl;
+    return 0;
+}
+int vetor()
+{
     int i;
     int popular;
     int maior;
