@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int notas[5];
+    float notas[5];
     int i;
     float media;
     int soma;
