@@ -1,35 +1,26 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
-
 int main()
 {
+    cout << fixed << setprecision(2);
+    /*VARIAVEIS*/
+    float notas[1000];
     int i;
+    int nota;
     int menor;
     int maior;
-    int n;
-    cin >> n;
-    int nseguidores[n];
+    float media;
+    media = 0;
+    menor = 0;
+    maior = 0;
+    
+    /*ENTRADA*/
 
-    for ( i = 0; i < n; i++)
-    {
-        cin >> nseguidores[i];
-    }
-    maior = 1;
-    for ( i = 0; i < n; i++)
-    {
-        if (nseguidores[i] > maior)
-        {
-            maior = nseguidores[i];
-        }
-        if (nseguidores[i] < menor)
-        {
-            menor = nseguidores[i];
-        }
-        
-        
-    }
-    cout << "maior = " << maior << endl;
-    cout << "menor = " << menor << endl;
+    /*SAIDA*/
+    cout << "Media da turma: " << media << endl;
+    cout << " Alunos com nota acima da media: " << maior << endl;
+    cout << "Alunos com nota abaixo da media: " << menor << endl;
     return 0;
 }
