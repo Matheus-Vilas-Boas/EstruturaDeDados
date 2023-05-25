@@ -54,3 +54,18 @@
 * 1050 >> DDD
 * 1051 >> Imposto de renda
 * 1052 >> Mês
+
+## EXERCÍCIOS DO MOODLE
+
+--> Lista de exercício passada em aula pelo sistema do moodle.
+
+### Vetores
+
+* 001 >> Facebook
+* 002 >> Whindersson Nunes
+* 003 >> Escola Mundial
+* 004 >> La casa de papel
+* 005 >> Pesquisa
+* 006 >> Joãozinho na aula de matemática
+* 007 >> Joãozinho 2
+* 008 >> Resultado da corrida
