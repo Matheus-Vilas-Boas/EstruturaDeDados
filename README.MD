@@ -5,6 +5,7 @@
 -> Lista de exercícios passada em aulas do Instituto Nacional de Telecomunicações -INATEL.
 
 ### Operadores aritméticos
+ * 1000 >> Hello World !!!
  * 1001 >> Extremamente básico
  * 1002 >> Área do circulo
  * 1003 >> Soma simples
@@ -14,11 +15,15 @@
  * 1007 >> Diferença
  * 1008 >> Salário
  * 1012 >> Área
+ * 1013 >> O maior
  * 1014 >> Consumo
  * 1015 >> Distância entre dois pontos
+ * 1016 >> Distância
  * 1017 >> Gasto de combustível
+ * 1018 >> cédulas
  * 1019 >> Conversão de tempo
  * 1020 >> Idade em dias
+ * 1021 >> Notas e moedas
 
 ### Estrutura de repetição 
 </> Comando for().
@@ -49,5 +54,3 @@
 * 1050 >> DDD
 * 1051 >> Imposto de renda
 * 1052 >> Mês
-
-
