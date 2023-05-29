@@ -1,9 +1,12 @@
 #include <iostream>
 #include <fstream>
+#include <cstring>
 
 using namespace std;
 int main()
 {
-    ifstream fin("arquivo.txt");
+    char nomearq[100];
+    ofstream arq; //handle para escrever arquivos
+    strcpy(nomearq, "arquivos.txt")
     return 0;
 }
