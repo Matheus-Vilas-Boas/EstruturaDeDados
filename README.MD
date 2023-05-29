@@ -84,3 +84,8 @@
 * 018 >> Stormtroopers
 * 019 >> Padawan
 * 020 >> Jedi
+
+### Arquivos
+* 021 >> Lendo um arquivo de texto
+* 022 >> Temperatura média
+* 023 >> Escrevendo em um arquivo
