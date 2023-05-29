@@ -80,6 +80,7 @@
 * 015 >> Separando as palavras
 ### Structs
 * 016 >> Pré noob
-* 017 >> Stormtroopers
-* 018 >> Padawan
-* 019 >> Jedi
+* 017 >> Noob
+* 018 >> Stormtroopers
+* 019 >> Padawan
+* 020 >> Jedi
