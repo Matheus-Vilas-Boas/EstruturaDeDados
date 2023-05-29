@@ -69,3 +69,17 @@
 * 006 >> Joãozinho na aula de matemática
 * 007 >> Joãozinho 2
 * 008 >> Resultado da corrida
+
+### Strings
+* 009 >> DDD
+* 010 >> Animal
+* 011 >> Vai curíntia
+* 012 >> Mais uma do joãozinho
+* 013 >> Pedra papel tesoura
+* 014 >> Ordem alfabetica
+* 015 >> Separando as palavras
+### Structs
+* 016 >> Pré noob
+* 017 >> Stormtroopers
+* 018 >> Padawan
+* 019 >> Jedi
