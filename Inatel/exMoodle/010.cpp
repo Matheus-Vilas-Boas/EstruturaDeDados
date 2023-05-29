@@ -1,54 +1,64 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-    // INPUT
-    string cidade;
-    getline(cin, cidade);
+    string cond1, cond2, cond3;
+    cin >> cond1;
+    cin >> cond2;
+    cin >> cond3;
 
-    // OUTPUT
-    if (cidade == "Brasilia")
+    if (cond1 == "vertebrado")
     {
-        cout << "61" << endl;
+        if (cond2 == "ave")
+        {
+            if (cond3 == "carnivoro")
+            {
+                cout << "aguia" << endl;
+            }
+            else if (cond3 == "onivoro")
+            {
+                cout << "pomba" << endl;
+            }
+        }
+        else if (cond2 == "mamifero")
+        {
+            if (cond3 == "onivoro")
+            {
+                cout << "homem" << endl;
+            }
+            else if (cond3 == "herbivoro")
+            {
+                cout << "vaca" << endl;
+            }
+        }
     }
-    else if (cidade == "Salvador")
+    else if (cond1 == "invertebrado")
     {
-        cout << "71" << endl;
-    }
-    else if (cidade == "Sao Paulo")
-    {
-        cout << "11" << endl;
-    }
-    else if (cidade == "Rio de Janeiro")
-    {
-        cout << "21" << endl;
-    }
-    else if (cidade == "Juiz de Fora")
-    {
-        cout << "32" << endl;
-    }
-    else if (cidade == "Campinas")
-    {
-        cout << "19" << endl;
-    }
-    else if (cidade == "Vitoria")
-    {
-        cout << "27" << endl;
-    }
-    else if (cidade == "Belo Horizonte")
-    {
-        cout << "31" << endl;
-    }
-    else if (cidade == "Santa Rita do Sapucai")
-    {
-        cout << "35" << endl;
-    }
-    else
-    {
-        cout << "DDD nao cadastrado" << endl;
+        if (cond2 == "inseto")
+        {
+            if (cond3 == "hematofago")
+            {
+                cout << "pulga" << endl;
+            }
+            else if (cond3 == "herbivoro")
+            {
+                cout << "lagarta" << endl;
+            }
+        }
+        else if (cond3 == "anelideo")
+        {
+            if (cond3 == "hematofago")
+            {
+                cout << "sanguessuga" << endl;
+            }
+            else if (cond3 == "onivoro")
+            {
+                cout << "minhoca" << endl;
+            }
+        }
     }
 
     return 0;
