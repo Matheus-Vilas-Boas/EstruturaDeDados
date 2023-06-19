@@ -106,7 +106,8 @@
 * 030 >> O homem mais forte do mundo
 * 031 >> Passagem de parâmetros por referência 1
 * 032 >> Passagem de parâmetros por referência 2
-* 033 >> Equação do segundo grau
+* 033 >> Passagem de parâmetros por referência 3
+* 034 >> Equação do segundo grau
 
 ### Matrizes
 
