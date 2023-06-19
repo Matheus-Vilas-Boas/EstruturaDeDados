@@ -5,6 +5,7 @@
 -> Lista de exercícios passada em aulas do Instituto Nacional de Telecomunicações -INATEL.
 
 ### Operadores aritméticos
+
  * 1000 >> Hello World !!!
  * 1001 >> Extremamente básico
  * 1002 >> Área do circulo
@@ -26,6 +27,7 @@
  * 1021 >> Notas e moedas
 
 ### Estrutura de repetição 
+
 </> Comando for().
  
  * 1060 >> Números posítivos
@@ -71,6 +73,7 @@
 * 008 >> Resultado da corrida
 
 ### Strings
+
 * 009 >> DDD
 * 010 >> Animal
 * 011 >> Vai curíntia
@@ -79,6 +82,7 @@
 * 014 >> Ordem alfabetica
 * 015 >> Separando as palavras
 ### Structs
+
 * 016 >> Pré noob
 * 017 >> Noob
 * 018 >> Stormtroopers
@@ -86,6 +90,30 @@
 * 020 >> Jedi
 
 ### Arquivos
+
 * 021 >> Lendo um arquivo de texto
 * 022 >> Temperatura média
 * 023 >> Escrevendo em um arquivo
+
+### Funções
+
+* 024 >> Peso Ideal
+* 025 >> Positivo e negativo
+* 026 >> Funções 1
+* 027 >> Delta
+* 028 >> O professor Assustador
+* 029 >> O professor Assustador 2
+* 030 >> O homem mais forte do mundo
+* 031 >> Passagem de parâmetros por referência 1
+* 032 >> Passagem de parâmetros por referência 2
+* 033 >> Equação do segundo grau
+
+### Matrizes
+
+* 034 >> Mostrar por linhas
+* 035 >> Soma de matrizes
+* 036 >> Cifra de César
+* 037 >> QR Code
+* 038 >> OCR
+* 039 >> Análise de feridas
+* 040 >> Determinante e transposta
