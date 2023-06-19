@@ -1,29 +1,30 @@
 #include <iostream> 
+#include <math.h> 
+#include <iomanip>
 
 using namespace std;
 
-//Função troca
-void troca(int &X, int &Y)
+//Função média geometrica
+void converte(float F, float &C, float &K)
 {
-    int a = X;
-    int b = Y;
-
-    X = b;
-    Y = a;
+    C = (F - 32) * 5 / 9;
+    K = C + 273;
 
 }
 int main()
 {
-    // váriaveis de input
-    int a;
-    int b;
+    cout << fixed << setprecision(2);
+    // váriaveis de input e output
+    float fH; 
+    float fC;
+    float cel;
     //INPUT
-    cin >> a;
-	cin >> b;
-    //PROCESSAMENTO
-    troca(a,b); // função troca
-    //OUTPUT
-    cout << a <<" " << b;
+    cin >> fH;
+    // chamando a função converte
+    converte(fH, fC, cel);
+    // Imprimindo o resultado
+    cout << "Celsius: " << fC << endl;
+    cout << "Kelvin: " << cel << endl;
 
     return 0;
 }

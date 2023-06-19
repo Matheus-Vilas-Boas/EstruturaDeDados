@@ -1,31 +1,22 @@
-#include <iostream> 
-#include <math.h> 
-#include <iomanip>
-
 using namespace std;
 
 //Função média geometrica
-void converte(float F, float &C, float &K)
+void media(int x, int y, float &m)
 {
-    C = (F - 32) * 5 / 9;
-    K = C + 273;
-
+    m = sqrt(x *y);
 }
 int main()
 {
     cout << fixed << setprecision(2);
     // váriaveis de input e output
-    float fH; 
-    float fC;
-    float cel;
+    int x, y; 
+    float M = 0;
     //INPUT
-    cin >> fH;
-    // chamando a função converte
-    converte(fH, fC, cel);
-    // Imprimindo o resultado
-    cout << "Celsius: " << fC << endl;
-    cout << "Kelvin: " << cel << endl;
-
+    cin >> x >> y;
+    //Chamando a função média geometrica
+    media(x, y, M);
+    // OUTPUT
+    cout << M << endl;
     return 0;
 }
 // V 1.0.0
