@@ -1,0 +1,40 @@
+O Destino do Herói;Ação;8.2
+A Jornada Perdida;Aventura;7.9
+A Vida em Cores;Drama;8.5
+O Mistério do Enigma;Suspense;7.6
+Amor em Paris;Romance;7.8
+A Origem do Sonho;Fantasia;8.1
+A Última Batalha;Ação;7.7
+A Arte da Ilusão;Comédia;7.4
+O Despertar da Magia;Fantasia;8.3
+A Coragem de um Guerreiro;Ação;7.9
+O Segredo das Profundezas;Suspense;7.5
+O Céu em Chamas;Drama;8.0
+O Amor Proibido;Romance;7.6
+A Vingança do Passado;Suspense;7.8
+O Desafio Supremo;Ação;8.1
+O Brilho da Esperança;Drama;7.7
+O Mistério das Sombras;Suspense;8.4
+A Magia do Tempo;Fantasia;7.9
+O Caminho da Liberdade;Drama;7.5
+A Dança do Destino;Romance;8.2
+O Enigma do Passado;Suspense;7.6
+A Busca pelo Tesouro;Aventura;7.9
+O Poder da Imaginação;Fantasia;8.3
+A Trama do Destino;Drama;8.0
+A Sombra da Morte;Suspense;7.7
+O Segredo dos Anjos;Drama;7.8
+A Magia das Estrelas;Fantasia;8.1
+O Mistério do Abismo;Suspense;7.5
+O Despertar da Alma;Drama;8.2
+A Herança Perdida;Aventura;7.7
+O Último Suspiro;Suspense;7.9
+A Chave do Enigma;Mistério;7.6
+O Destino nas Estrelas;Ficção Científica;8.0
+A Jornada da Liberdade;Aventura;7.8
+O Poder da Esperança;Drama;8.1
+A Maldição do Passado;Suspense;7.5
+O Segredo da Magia Negra;Fantasia;8.3
+A Busca pela Verdade;Mistério;7.7
+O Legado Esquecido;Drama;8.2
+A Vingança do Destino;Suspense;7.9

@@ -1,49 +1,91 @@
 #include <iostream>
-#include <vector>
-#include <cstdlib> // para gerar números aleatórios
-#include <ctime> // para inicializar a semente dos números aleatórios
+#include <fstream>
+#include <string>
+
 using namespace std;
 
-// Classe que representa um filme
-class Filme {
-public:
-    string titulo;
-    string genero;
-    int ano;
-    double avaliacao;
+//  TUDO QUE VAI SER NECESSÁRIO PARA O PROJETO
+/*
+    1 - CRIAR UM ARQUIVO PARA  GUARDAR OS FILMES *
+    2 - CRIAR UMA FORMA DE ACESSAR O ARQUIVO*
+    3 - CRIAR UM SISTEMA DE PESQUISA
+    4 - CRIAR UM VETOR PARA GUARDAR O ITEM PESQUISADO
+    5 - CRIAR UM CÓDIGO QUE MATENHA O TUDO FUNCIONANDO
+    5 - CRIAR UM CÓDIGO QUE RECOMENDE OS FILMES
+*/
+    //AQUI COMEÇA TUDO
 
-    Filme(string t,string g, int a, double av) {
-        titulo = t;
-        genero = g;
-        ano = a;
-        avaliacao = av;
-    }
+// Agrupar informações dos filmes
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+// Agrupar informações dos filmes
+struct Filme 
+{
+    string nome;
+    string categoria;
+    float avaliacao;
 };
 
-int main() {
-    // Inicializa a semente dos números aleatórios
-    srand(time(nullptr));
+// Sistema para acessar e pesquisar o filme
+void pesquisaAcessaFilme(const string& arquivo, const string& nome) 
+{
+    ifstream file(arquivo);
+    
+    // Verifica se o arquivo existe e/ou foi aberto corretamente
+    if (!file.is_open()) 
+    {
+        cout << "ERRO 404: Arquivo não encontrado!\n";
+        return;
+    }
+    
+    string lerLinha;
+    bool filmeEncontrado = false;
+    
+    while (getline(file, lerLinha)) 
+    {
+        Filme filme;
+        size_t posLinha = lerLinha.find(';');
+        
+        if (posLinha != string::npos) 
+        {
+            filme.categoria = lerLinha.substr(0, posLinha);
+            lerLinha = lerLinha.substr(posLinha + 1);
+           // filme.avaliacao = stof(lerLinha);
+            
+            if (filme.nome == nome) 
+            {
+                cout << "Filme encontrado:\n";
+                cout << "Título: " << filme.nome << endl;
+                cout << "Categoria: " << filme.categoria << endl;
+                cout << "Avaliação: " << filme.avaliacao << endl;
+                filmeEncontrado = true;
+                break;
+            }
+        }
+    }
+    
+    if (!filmeEncontrado) 
+    {
+        cout << "Filme não foi encontrado!\n";
+    }
+    
+    file.close();
+}
 
-    // Cria uma lista de filmes
-    vector<Filme> filmes;
-    filmes.push_back(Filme("O Poderoso Chefao", "Crime/Drama", 1972, 9.2));
-    filmes.push_back(Filme("A Lista de Schindler", "Drama/História", 1993, 8.9));
-    filmes.push_back(Filme("Forrest Gump", "Comedia/Drama", 1994, 8.8));
-    filmes.push_back(Filme("Interestelar", "Ficcao cientifica", 2014, 8.6));
-    filmes.push_back(Filme("Coringa", "Crime/Drama", 2019, 8.5));
-    filmes.push_back(Filme("A Origem", "Acao/Ficção cientifica", 2010, 8.3));
-    filmes.push_back(Filme("A Viagem de Chihiro", "Animacao/Fantasia", 2001, 8.2));
-    filmes.push_back(Filme("Parasita", "Comedia/Drama", 2019, 8.1));
-    filmes.push_back(Filme("O Iluminado", "Terror", 1980, 8.1));
-    filmes.push_back(Filme("2001 Uma Odisseia no Espaco", "Ficcao cientifica", 1968, 8.0));
+int main() 
+{
+    string arquivo = "filmes.txt";
 
-    // Escolhe um filme aleatório da lista
-    int index = rand() % filmes.size();
-    Filme filme_recomendado = filmes[index];
+    // Exemplo de pesquisa de filme
+    string titulo;
+    cout << "Digite o título do filme que deseja pesquisar: ";
+    getline(cin, titulo);
 
-    // Mostra o filme recomendado ao usuário
-    cout << "Recomendamos o filme \"" << filme_recomendado.titulo << "\" (" << filme_recomendado.ano << ") do genero " << filme_recomendado.genero << "." << endl;
-    cout << "A avaliacao do filme  " << filme_recomendado.avaliacao << " de 10." << endl;
-
+    pesquisaAcessaFilme(arquivo, titulo);
+    
     return 0;
 }
