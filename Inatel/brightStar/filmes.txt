@@ -39,21 +39,22 @@ A Busca pela Verdade;Mistério;7.7
 O Legado Esquecido;Drama;8.2
 A Vingança do Destino;Suspense;7.9
 Harry Potter e a Pedra Filosofal;Fantasia;10
-Narnia O Leão, a Feiticeira e o Guarda-Roupa;Fantasia e Aventura;6.9
-Piratas do Caribe A Maldição do Pérola Negra;Ação e Aventura;8.0
+Narnia: O Leão, a Feiticeira e o Guarda-Roupa;Fantasia e Aventura;6.9
+Piratas do Caribe: A Maldição do Pérola Negra;Ação e Aventura;8.0
 Harry Potter e a Câmara Secreta;Ação e Aventura;7.4
 Narnia: Príncipe Caspian;Fantasia e Aventura;6.5
-Piratas do Caribe O Bau da Morte;Ação e Aventura;7.3
+Piratas do Caribe: O Baú da Morte;Ação e Aventura;7.3
 Harry Potter e o Prisioneiro de Azkaban;Ação e Aventura;7.9
-Narnia A Viagem do Peregrino da Alvorada;Fantasia e Aventura;6.3
-Piratas do Caribe No Fim do Mundo;Ação e Aventura;7.1
+Narnia: A Viagem do Peregrino da Alvorada;Fantasia e Aventura;6.3
+Piratas do Caribe: No Fim do Mundo;Ação e Aventura;7.1
 Harry Potter e o Cálice de Fogo;Ação e Aventura;7.7
-Narnia A Cadeira de Prata;Fantasia e Aventura;6.2
-Piratas do Caribe Navegando em Águas Misteriosas;Ação e Aventura;6.6
-Harry Potter e a Ordem da Fenix;Ação e Aventura;7.5
-Narnia A Última Batalha;Fantasia e Aventura;10.0
-Piratas do Caribe A Vingança de Salazar;Ação e Aventura;6.5
+Narnia: A Cadeira de Prata;Fantasia e Aventura;6.2
+Piratas do Caribe: Navegando em Águas Misteriosas;Ação e Aventura;6.6
+Harry Potter e a Ordem da Fênix;Ação e Aventura;7.5
+Narnia: A Última Batalha;Fantasia e Aventura;10.0
+Piratas do Caribe: A Vingança de Salazar;Ação e Aventura;6.5
 Harry Potter e o Enigma do Príncipe;Ação e Aventura;7.6
-Narnia O Sobrinho do Mago;Fantasia e Aventura;10.0
-Piratas do Caribe: A Maldição do Perola Negra;Ação e Aventura;8.0
-Harry Potter e as Reliquias da Morte - Parte 1;Ação e Aventura;7.7
+Narnia: O Sobrinho do Mago;Fantasia e Aventura;10.0
+Piratas do Caribe: A Maldição do Pérola Negra;Ação e Aventura;8.0
+Harry Potter e as Relíquias da Morte - Parte 1;Ação e Aventura;7.7
+Narnia: A Cadeira de Prata;Fantasia e Aventura;10.0
