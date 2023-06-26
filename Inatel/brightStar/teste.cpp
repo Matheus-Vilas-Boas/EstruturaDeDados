@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <algorithm>  // Para a função transform
+#include <algorithm>  
 #include <cctype>   
 
 
