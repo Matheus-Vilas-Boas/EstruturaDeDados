@@ -103,7 +103,10 @@ void recomendarFilmes(const vector<Filme>& filmes, const Filme& filmeReferencia)
 
 int main() 
 {
-    string arquivo = "filmes.txt";
+
+    cout << "BRIGHTSTAR\n";
+
+    string arquivo = "C:\\Users\\mthvb\\Documents\\ProjectMaker\\EstruturaDeDados\\Inatel\\brightStar\\doc\\filmes.txt";
     string titulo;
     vector<Filme> filmes;
 
@@ -153,7 +156,7 @@ int main()
         if (filmeProcurado.nome != "") 
         {
             string resposta;
-            cout << "Deseja ver recomendacoess de filmes similares? (s/n): ";
+            cout << "Deseja ver recomendacoes de filmes similares? (s/n): ";
             getline(cin, resposta);
 
             if (resposta == "s") 
