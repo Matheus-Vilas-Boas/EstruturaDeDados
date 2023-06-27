@@ -25,7 +25,7 @@ A Trama do Destino;Drama;8.0
 A Sombra da Morte;Suspense;7.7
 O Segredo dos Anjos;Drama;7.8
 A Magia das Estrelas;Fantasia;8.1
-O Mistério do Abismo;Suspense;7.5
+O Misterio do Abismo;Suspense;7.5
 O Despertar da Alma;Drama;8.2
 A Herança Perdida;Aventura;7.7
 O Último Suspiro;Suspense;7.9
@@ -67,6 +67,27 @@ O Auto da Compadecida;Comedia;9.6
 As Branquelas;Comedia;9.6
 Curtindo a Vida Adoidado;Comedia;9.6
 Todo Mundo Quase Morto;Comedia;9.6
-Uma Babá Quase Perfeita;Comedia;9.6
-Um Homem Como Você;Comedia;9.6
-
+Uma Baba Quase Perfeita;Comedia;9.6
+Um Homem Como Voce;Comedia;9.6
+O Exorcista;Terror;9.1
+Psicose;Terror;8.5
+O Iluminado;Terror;8.4
+Halloween;Terror;8.2
+A Noite dos Mortos-Vivos;Terror;8.1
+O Sexto Sentido;Terror;8.0
+O Bebe de Rosemary;Terror;7.9
+O Massacre da Serra Eletrica;terror;7.8
+O Chamado;Terror;7.7
+A Bruxa;Terror;7.6
+Querido John;Romance;8.9
+A Culpa E Das Estrelas;Romance;8.9
+Diario de Uma Paixão;Romance;8.9
+Um Amor Para Recordar;Romance;8.9
+Moonlight;Romance;8.9
+Azul E A Cor Mais Quente;Romance;8.9
+Desejo e Reparação;Romance;8.9
+Me Chame Pelo Seu Nome;Romance;8.9
+So Me Dizendo Sim;Romance;8.9
+Amantes Estranhos;Romance;8.9
+Coracoes Loucos;Romance;8.9
+Eternamente Juntos;Romance;8.9

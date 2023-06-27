@@ -2,8 +2,8 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <algorithm>  
-#include <cctype>   
+#include <algorithm>  // Organiza e manipula os carecteres
+#include <cctype> //Verifica os carecteres digitados pelo usuario  
 
 
 using namespace std;
@@ -22,6 +22,8 @@ string toLower(const string& str) {
     transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(), ::tolower);
     return lowerStr;
 }
+
+/*Funcão que acessa o arquivo, procura o filme e envia para main*/
 
 void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& filmeEncontrado) 
 {
@@ -79,6 +81,7 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
     file.close();
 }
 
+// Função que recomenda o filme a partir do gênero do filme escolhido pelo usuario.
 void recomendarFilmes(const vector<Filme>& filmes, const Filme& filmeReferencia) 
 {
     cout << "Com base no que voce assistiu: " << filmeReferencia.nome << ":\n";
