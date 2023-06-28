@@ -42,7 +42,7 @@ Harry Potter e a Pedra Filosofal;Fantasia;10
 Narnia O Leao, a Feiticeira e o Guarda-Roupa;Fantasia e Aventura;6.9
 Piratas do Caribe A Maldição do Perola Negra;Acao e Aventura;8.0
 Harry Potter e a Camara Secreta;Acao e Aventura;7.4
-Narnia: Principe Caspian;Fantasia e Aventura;6.5
+Narnia Principe Caspian;Fantasia e Aventura;6.5
 Piratas do Caribe O Bau da Morte;Acao e Aventura;7.3
 Harry Potter e o Prisioneiro de Azkaban;Acao e Aventura;7.9
 Narnia A Viagem do Peregrino da Alvorada;Fantasia e Aventura;6.3
@@ -53,15 +53,15 @@ Piratas do Caribe Navegando em Aguas Misteriosas;Acao e Aventura;6.6
 Harry Potter e a Ordem da Fenix;Ação e Aventura;7.5
 Narnia A Ultima Batalha;Fantasia e Aventura;10.0
 Piratas do Caribe A Vingança de Salazar;Acao e Aventura;6.5
-Harry Potter e o Enigma do Príncipe;Acao;7.6
+Harry Potter e o Enigma do Principe;Acao;7.6
 Narnia O Sobrinho do Mago;Fantasia e Aventura;10.0
 Piratas do Caribe: A Maldição do Perola Negra;Acao e Aventura;8.0
 Harry Potter e as Reliquias da Morte - Parte 1;Acao e Aventura;7.7
 Star Wars V O Imperio Contra ataca;Acao e Aventura; 9.6
 Apertem os Cintos, O Piloto Sumiu;Comedia;9.6
-Se Beber, Não Case;Comedia;9.6
+Se Beber, Nao Case;Comedia;9.6
 Corra Que A Policia Vem Aí;Comedia;9.6
-Superbad – E Hoje;Comedia;9.6
+Superbad  E Hoje;Comedia;9.6
 Borat;Comedia;9.6
 O Auto da Compadecida;Comedia;9.6
 As Branquelas;Comedia;9.6
