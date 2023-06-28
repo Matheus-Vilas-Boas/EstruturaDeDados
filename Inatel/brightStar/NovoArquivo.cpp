@@ -2,14 +2,14 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <algorithm>  // Organiza e manipula os carecteres
-#include <cctype> //Verifica os carecteres digitados pelo usuario  
-
+#include <algorithm>
+#include <cctype>
+#include <cstdlib> // Adicione esta linha para usar atof
 
 using namespace std;
 
 // Agrupa informação dos filmes
-struct Filme 
+struct Filme
 {
     string nome;
     string categoria;
@@ -17,19 +17,20 @@ struct Filme
 };
 
 // Função auxiliar para converter uma string para letras minúsculas
-string toLower(const string& str) {
+string toLower(const string& str)
+{
     string lowerStr = str;
     transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(), ::tolower);
     return lowerStr;
 }
 
-/*Funcão que acessa o arquivo, procura o filme e envia para main*/
+//Funcão que acessa o arquivo, procura o filme e envia para main/
 
-void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& filmeEncontrado) 
+void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& filmeEncontrado)
 {
-    ifstream file(arquivo);
+    ifstream file(arquivo.c_str());
     // Verificar se o arquivo existe ou pode ser aberto
-    if (!file.is_open()) 
+    if (!file.is_open())
     {
         cout << "Erro ao abrir o arquivo.\n";
         return;
@@ -41,26 +42,26 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
     // Converter o título para letras minúsculas
     string tituloLowerCase = toLower(titulo);
 
-    // Procurar o filme 
-    while (getline(file, linha)) 
+    // Procurar o filme
+    while (getline(file, linha))
     {
         Filme filme;
         size_t pos = linha.find(';');
 
-        if (pos != string::npos) 
+        if (pos != string::npos)
         {
             filme.nome = linha.substr(0, pos);
             linha.erase(0, pos + 1);
             pos = linha.find(';');
             filme.categoria = linha.substr(0, pos);
             linha.erase(0, pos + 1);
-            filme.avaliacao = stof(linha);
+            filme.avaliacao = atof(linha.c_str()); // Use atof para converter string para float
 
             // Converter o nome do filme no arquivo para letras minúsculas
             string nomeLowerCase = toLower(filme.nome);
 
             // Mostrando o filme
-            if (nomeLowerCase == tituloLowerCase) 
+            if (nomeLowerCase == tituloLowerCase)
             {
                 cout << "Filme encontrado:\n";
                 cout << "Titulo: " << filme.nome << endl;
@@ -73,7 +74,7 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
         }
     }
 
-    if (!encontrado) 
+    if (!encontrado)
     {
         cout << "Filme nao encontrado!\n";
     }
@@ -82,31 +83,34 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
 }
 
 // Função que recomenda o filme a partir do gênero do filme escolhido pelo usuario.
-void recomendarFilmes(const vector<Filme>& filmes, const Filme& filmeReferencia) 
+void recomendarFilmes(const vector<Filme>& filmes, const Filme& filmeReferencia)
 {
     cout << "Com base no que voce assistiu: " << filmeReferencia.nome << ":\n";
     int count = 0;
 
-    for (const Filme& filme : filmes) 
+    for (vector<Filme>::const_iterator it = filmes.begin(); it != filmes.end(); ++it)
     {
-        if (filme.categoria == filmeReferencia.categoria && toLower(filme.nome) != toLower(filmeReferencia.nome)) 
+        const Filme& filme = *it;
         {
-            cout << "Titulo: " << filme.nome << endl;
-            cout << "Categoria: " << filme.categoria << endl;
-            cout << "Avaliacao: " << filme.avaliacao << endl;
-            cout << endl;
+            if (filme.categoria == filmeReferencia.categoria && toLower(filme.nome) != toLower(filmeReferencia.nome))
+            {
+                cout << "Titulo: " << filme.nome << endl;
+                cout << "Categoria: " << filme.categoria << endl;
+                cout << "Avaliacao: " << filme.avaliacao << endl;
+                cout << endl;
 
-            count++;
-            if (count == 6) {
-                break;
+                count++;
+                if (count == 6)
+                {
+                    break;
+                }
             }
         }
     }
 }
 
-int main() 
+int main()
 {
-
     cout << "BRIGHTSTAR\n";
 
     string arquivo = "C:\\Users\\mthvb\\Documents\\ProjectMaker\\EstruturaDeDados\\Inatel\\brightStar\\doc\\filmes.txt";
@@ -114,40 +118,40 @@ int main()
     vector<Filme> filmes;
 
     // Ler os filmes do arquivo e armazenar no vetor
-    ifstream file(arquivo);
-    if (file.is_open()) 
+    ifstream file(arquivo.c_str());
+    if (file.is_open())
     {
         string linha;
-        while (getline(file, linha)) 
+        while (getline(file, linha))
         {
             Filme filme;
             size_t pos = linha.find(';');
-            if (pos != string::npos) 
+            if (pos != string::npos)
             {
                 filme.nome = linha.substr(0, pos);
                 linha.erase(0, pos + 1);
                 pos = linha.find(';');
                 filme.categoria = linha.substr(0, pos);
                 linha.erase(0, pos + 1);
-                filme.avaliacao = stof(linha);
+                filme.avaliacao = atof(linha.c_str()); // Use atof para converter string para float
 
                 filmes.push_back(filme);
             }
         }
         file.close();
     }
-    else 
+    else
     {
         cout << "Erro ao abrir o arquivo.\n";
         return 0;
     }
 
-    while (true) 
+    while (true)
     {
         cout << "Digite um filme para assistir (ou 'sair' para encerrar): ";
         getline(cin, titulo);
 
-        if (titulo == "sair") 
+        if (titulo == "sair")
         {
             cout << "Encerrando o programa...\n";
             break;
@@ -156,24 +160,18 @@ int main()
         Filme filmeProcurado;
         pesquisaAcessaFilme(arquivo, titulo, filmeProcurado);
 
-        if (filmeProcurado.nome != "") 
+        if (filmeProcurado.nome != "")
         {
             string resposta;
             cout << "Deseja ver recomendacoes de filmes similares? (s/n): ";
             getline(cin, resposta);
 
-            if (resposta == "s") 
+            if (resposta == "s")
             {
                 recomendarFilmes(filmes, filmeProcurado);
             }
         }
     }
-
-    return 0;
+    return�0;
+�
 }
-/*
-    OBSERVAÇÕES PARA O USUÁRIO:
-    Necessário gcc --version em 9.3.1
-    O compilador g++ não reconhece a função toupper()
-
-*/
