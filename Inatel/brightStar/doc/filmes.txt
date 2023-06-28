@@ -1,18 +1,18 @@
-O Destino do Heroi;Ação;8.2
+O Destino do Heroi;Acao;8.2
 A Jornada Perdida;Aventura;7.9
 A Vida em Cores;Drama;8.5
 O Misterio do Enigma;Suspense;7.6
 Amor em Paris;Romance;7.8
 A Origem do Sonho;Fantasia;8.1
-A Ultima Batalha;Ação;7.7
-A Arte da Ilusao;Comédia;7.4
+A Ultima Batalha;Acao;7.7
+A Arte da Ilusao;Comedia;7.4
 O Despertar da Magia;Fantasia;8.3
-A Coragem de um Guerreiro;Ação;7.9
+A Coragem de um Guerreiro;Acao;7.9
 O Segredo das Profundezas;Suspense;7.5
 O Ceu em Chamas;Drama;8.0
 O Amor Proibido;Romance;7.6
 A Vingança do Passado;Suspense;7.8
-O Desafio Supremo;Ação;8.1
+O Desafio Supremo;Acao;8.1
 O Brilho da Esperança;Drama;7.7
 O Misterio das Sombras;Suspense;8.4
 A Magia do Tempo;Fantasia;7.9
@@ -28,7 +28,7 @@ A Magia das Estrelas;Fantasia;8.1
 O Misterio do Abismo;Suspense;7.5
 O Despertar da Alma;Drama;8.2
 A Herança Perdida;Aventura;7.7
-O Último Suspiro;Suspense;7.9
+O Ultimo Suspiro;Suspense;7.9
 A Chave do Enigma;Misterio;7.6
 O Destino nas Estrelas;Ficção Cientifica;8.0
 A Jornada da Liberdade;Aventura;7.8
@@ -41,15 +41,15 @@ A Vingança do Destino;Suspense;7.9
 Harry Potter e a Pedra Filosofal;Fantasia;10
 Narnia O Leao, a Feiticeira e o Guarda-Roupa;Fantasia e Aventura;6.9
 Piratas do Caribe A Maldição do Perola Negra;Acao e Aventura;8.0
-Harry Potter e a Camara Secreta;Ação e Aventura;7.4
+Harry Potter e a Camara Secreta;Acao e Aventura;7.4
 Narnia: Principe Caspian;Fantasia e Aventura;6.5
-Piratas do Caribe O Bau da Morte;Ação e Aventura;7.3
-Harry Potter e o Prisioneiro de Azkaban;Ação e Aventura;7.9
+Piratas do Caribe O Bau da Morte;Acao e Aventura;7.3
+Harry Potter e o Prisioneiro de Azkaban;Acao e Aventura;7.9
 Narnia A Viagem do Peregrino da Alvorada;Fantasia e Aventura;6.3
-Piratas do Caribe No Fim do Mundo;Ação e Aventura;7.1
-Harry Potter e o Calice de Fogo;Ação e Aventura;7.7
+Piratas do Caribe No Fim do Mundo;Acao e Aventura;7.1
+Harry Potter e o Calice de Fogo;Acao e Aventura;7.7
 Narnia A Cadeira de Prata;Fantasia e Aventura;6.2
-Piratas do Caribe Navegando em Aguas Misteriosas;Ação e Aventura;6.6
+Piratas do Caribe Navegando em Aguas Misteriosas;Acao e Aventura;6.6
 Harry Potter e a Ordem da Fenix;Ação e Aventura;7.5
 Narnia A Ultima Batalha;Fantasia e Aventura;10.0
 Piratas do Caribe A Vingança de Salazar;Acao e Aventura;6.5
@@ -60,8 +60,8 @@ Harry Potter e as Reliquias da Morte - Parte 1;Acao e Aventura;7.7
 Star Wars V O Imperio Contra ataca;Acao e Aventura; 9.6
 Apertem os Cintos, O Piloto Sumiu;Comedia;9.6
 Se Beber, Não Case;Comedia;9.6
-Corra Que A Polícia Vem Aí;Comedia;9.6
-Superbad – É Hoje!;Comedia;9.6
+Corra Que A Policia Vem Aí;Comedia;9.6
+Superbad – E Hoje;Comedia;9.6
 Borat;Comedia;9.6
 O Auto da Compadecida;Comedia;9.6
 As Branquelas;Comedia;9.6
@@ -73,7 +73,7 @@ O Exorcista;Terror;9.1
 Psicose;Terror;8.5
 O Iluminado;Terror;8.4
 Halloween;Terror;8.2
-A Noite dos Mortos-Vivos;Terror;8.1
+A Noite dos Mortos Vivos;Terror;8.1
 O Sexto Sentido;Terror;8.0
 O Bebe de Rosemary;Terror;7.9
 O Massacre da Serra Eletrica;terror;7.8

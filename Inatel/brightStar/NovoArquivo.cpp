@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Agrupa informa√ß√£o dos filmes
+// Agrupa informacao dos filmes
 struct Filme
 {
     string nome;
@@ -16,7 +16,7 @@ struct Filme
     float avaliacao;
 };
 
-// Fun√ß√£o auxiliar para converter uma string para letras min√∫sculas
+// Funcao auxiliar para converter uma string para letras minusculas
 string toLower(const string& str)
 {
     string lowerStr = str;
@@ -24,7 +24,7 @@ string toLower(const string& str)
     return lowerStr;
 }
 
-//Func√£o que acessa o arquivo, procura o filme e envia para main/
+//Func√£o que acessa o arquivo, procura o filme e envia para main
 
 void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& filmeEncontrado)
 {
@@ -39,7 +39,7 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
     string linha;
     bool encontrado = false;
 
-    // Converter o t√≠tulo para letras min√∫sculas
+    // Converter o titulo para letras minusculas
     string tituloLowerCase = toLower(titulo);
 
     // Procurar o filme
@@ -57,7 +57,7 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
             linha.erase(0, pos + 1);
             filme.avaliacao = atof(linha.c_str()); // Use atof para converter string para float
 
-            // Converter o nome do filme no arquivo para letras min√∫sculas
+            // Converter o nome do filme no arquivo para letras minusculas
             string nomeLowerCase = toLower(filme.nome);
 
             // Mostrando o filme
@@ -82,7 +82,7 @@ void pesquisaAcessaFilme(const string& arquivo, const string& titulo, Filme& fil
     file.close();
 }
 
-// Fun√ß√£o que recomenda o filme a partir do g√™nero do filme escolhido pelo usuario.
+// Funcao que recomenda o filme a partir do genero do filme escolhido pelo usuario.
 void recomendarFilmes(const vector<Filme>& filmes, const Filme& filmeReferencia)
 {
     cout << "Com base no que voce assistiu: " << filmeReferencia.nome << ":\n";
@@ -113,7 +113,8 @@ int main()
 {
     cout << "BRIGHTSTAR\n";
 
-    string arquivo = "C:\\Users\\mthvb\\Documents\\ProjectMaker\\EstruturaDeDados\\Inatel\\brightStar\\doc\\filmes.txt";
+    string arquivo = "filmes.txt";
+
     string titulo;
     vector<Filme> filmes;
 
@@ -172,6 +173,6 @@ int main()
             }
         }
     }
-    return†0;
-†
+
+††††return†0;
 }
