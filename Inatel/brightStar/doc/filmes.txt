@@ -17,7 +17,7 @@ O Brilho da Esperança;Drama;7.7
 O Misterio das Sombras;Suspense;8.4
 A Magia do Tempo;Fantasia;7.9
 O Caminho da Liberdade;Drama;7.5
-A Dança do Destino;Romance;8.2
+A Danca do Destino;Romance;8.2
 O Enigma do Passado;Suspense;7.6
 A Busca pelo Tesouro;Aventura;7.9
 O Poder da Imaginacao;Fantasia;8.3
@@ -81,7 +81,7 @@ O Chamado;Terror;7.7
 A Bruxa;Terror;7.6
 Querido John;Romance;8.9
 A Culpa E Das Estrelas;Romance;8.9
-Diario de Uma Paixão;Romance;8.9
+Diario de Uma Paixao;Romance;8.9
 Um Amor Para Recordar;Romance;8.9
 Moonlight;Romance;8.9
 Azul E A Cor Mais Quente;Romance;8.9
