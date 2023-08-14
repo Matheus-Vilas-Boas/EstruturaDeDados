@@ -57,6 +57,10 @@
 * 1051 >> Imposto de renda
 * 1052 >> Mês
 
+### EXERCÍCIOS DO BEECROWD PART.1
+
+* 1040 >> Média 3
+
 ## EXERCÍCIOS DO MOODLE
 
 --> Lista de exercício passada em aula pelo sistema do moodle.
