@@ -7,7 +7,7 @@ int main() {
     cin >> x;
     
 
-    if (x <= 25)
+    if (x >= 0 x <= 25)
     {
         cout << "Intervalo [0,25]" <<endl;
     }else if ( x > 25 && x <= 50)

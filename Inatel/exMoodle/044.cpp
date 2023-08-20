@@ -4,7 +4,7 @@ using namespace std;
  
 int main() {
     cout << fixed << setprecision(2);
-    double Salario, Horas, Preco;
+    float Salario, Horas, Preco;
     int Numero;
     
     cin >> Numero;

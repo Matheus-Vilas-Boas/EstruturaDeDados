@@ -10,7 +10,7 @@ int main()
     cin >> idade;
     cin >> letra;
 
-    if(idade < 10 && letra == 'V' || letra == 'v')
+    if(idade < 10 (&& letra == 'V' || letra == 'v'))
     {
         cout << "Bem vindo\n";
     }
