@@ -11,7 +11,8 @@ int main() {
     if(s == 0 || s < 2000.00)
     {
         cout << "Isento" << endl;
-    }else if( s ==3002.00)
+    }
+    else if( s == 3002.00)
     {
         i = 0.08 * 1000 + 0.18 * 2;
         cout << "R$ " << i << endl;
