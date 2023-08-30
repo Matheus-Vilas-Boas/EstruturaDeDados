@@ -27,7 +27,7 @@ int main()
     {
         delta = 2;
     }
-    else if( 36523 <= n and n < 73048){
+    else if( 36523 <= n && n < 73048){
         delta = 1;
     }
     else if(n >= 73048){

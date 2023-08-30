@@ -15,7 +15,8 @@ int main() {
     if (a == 0 || (b * b -4 * a * c) < 0)
     {
         cout << "Impossivel de calcular";
-    }else
+    }
+    else
     {
         R1 = (-b - sqrt((b * b -4 * a * c)))/(2 *a);
         R2 = (-b + sqrt((b * b -4 * a * c)))/(2 *a);
