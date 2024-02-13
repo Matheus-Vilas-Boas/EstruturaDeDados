@@ -1,75 +1,45 @@
-1 ->> Levantar informações do usuário
-{
-    Nome, período, matricula, curso
-}
+###Sistema de Registro de Atividades Acadêmicas
+Este é um programa simples em C++ para registrar atividades acadêmicas de estudantes, armazenar métricas e gerar relatórios. O programa utiliza estruturas de dados para armazenar informações do usuário, atividades e suas respectivas métricas.
 
-2 ->> Perguntar se no estante atual o usuário esta fazendo ou ja vez alguma atividade que desenvolva sua softsKill
+##Funcionamento do Programa
+#Coleta de Informações do Usuário:
 
-3 ->> se sim, armazenar os dados no arquivo txt, se não mostrar opções de atividades para seu desenvolvimento.
+O programa começa solicitando informações básicas do usuário, como nome, matrícula, período e curso.
+#Adição de Atividades:
 
-4 ->> ao final, mostrar suas métricas, e perguntar se ele deseja continuar ou sair.
+O usuário pode escolher adicionar uma nova atividade a partir de um menu.
+O menu inclui opções como "Monitoria," "Iniciação Científica," "Voluntariado," "Fetin," e "Estágio."
+As métricas para cada atividade são pré-definidas e armazenadas em um mapa associativo.
+#Armazenamento em Arquivo:
 
-opc: Monitoria
-comunicacao: 5
-adaptabilidade:4
-pensamento critico:5
-criatividade:4
-autonomia:5
-lideranca:4
-etica:5
-empatia:4
-responsabilidade:5
-inteligencia:4
-autogerenciamento:5
+As métricas da atividade são salvas em um arquivo de texto com o nome formatado como "metrics_nomeDoUsuario_nomeDaAtividade.txt".
+#Visualização de Todas as Métricas:
 
-opc: Inicicao Cientifica
-comunicacao: 5
-adaptabilidade:4
-pensamento critico:5
-criatividade:4
-autonomia:5
-lideranca:4
-etica:5
-empatia:4
-responsabilidade:5
-inteligencia:4
-autogerenciamento:5
+O usuário pode escolher visualizar todas as métricas registradas até o momento.
+As informações do usuário, curso, matrícula, período e métricas de cada atividade são exibidas.
+#Encerramento do Programa:
 
-opc: Voluntario
-comunicacao: 4
-adaptabilidade:4
-pensamento critico:5
-criatividade:5
-autonomia:4
-lideranca:4
-etica:5
-empatia:5
-responsabilidade:5
-inteligencia:4
-autogerenciamento:5
+O programa continua executando até que o usuário escolha a opção para mostrar todas as métricas e encerrar.
+##Instruções de Execução
+#Compilação:
 
-opc: Fetin
-comunicacao: 5
-adaptabilidade:5
-pensamento critico:5
-criatividade:5
-autonomia:5
-lideranca:4
-etica:5
-empatia:4
-responsabilidade:5
-inteligencia:5
-autogerenciamento:5
+Compile o programa usando um compilador C++. Por exemplo:
+Copy code
+g++ -o registro_atividades registro_atividades.cpp
+#Execução:
 
-opc: Estagio
-comunicacao: 5
-adaptabilidade:5
-pensamento critico:4
-criatividade:3
-autonomia:4
-lideranca:3
-etica:4
-empatia:3
-responsabilidade:5
-inteligencia:5
-autogerenciamento:4
+Execute o programa compilado:
+bash
+Copy code
+./registro_atividades
+#Interatividade:
+
+Siga as instruções interativas para adicionar atividades, escolher métricas e visualizar resultados.
+#Relatórios:
+
+Os resultados das atividades são armazenados em arquivos de texto no formato "metrics_nomeDoUsuario_nomeDaAtividade.txt".
+#Observação:
+
+Este é um exemplo educacional e pode ser expandido para incluir mais funcionalidades e aprimoramentos.
+Certifique-se de ter um compilador C++ instalado em seu ambiente para executar o programa.
+Divirta-se explorando o programa!
