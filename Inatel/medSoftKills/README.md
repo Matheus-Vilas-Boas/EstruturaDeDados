@@ -25,13 +25,13 @@ O programa continua executando até que o usuário escolha a opção para mostra
 
 Compile o programa usando um compilador C++. Por exemplo:
 Copy code
-g++ -o registro_atividades registro_atividades.cpp
+´g++ -o registro_atividades registro_atividades.cpp´
 ### Execução:
 
 Execute o programa compilado:
 bash
 Copy code
-./registro_atividades
+´./registro_atividades´
 ### Interatividade:
 
 Siga as instruções interativas para adicionar atividades, escolher métricas e visualizar resultados.
