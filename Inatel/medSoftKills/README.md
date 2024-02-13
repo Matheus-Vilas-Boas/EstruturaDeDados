@@ -2,7 +2,7 @@
 Este é um programa simples em C++ para registrar atividades acadêmicas de estudantes, armazenar métricas e gerar relatórios. O programa utiliza estruturas de dados para armazenar informações do usuário, atividades e suas respectivas métricas.
 
 ## Funcionamento do Programa
-#Coleta de Informações do Usuário:
+# Coleta de Informações do Usuário:
 
 O programa começa solicitando informações básicas do usuário, como nome, matrícula, período e curso.
 # Adição de Atividades:
@@ -10,7 +10,7 @@ O programa começa solicitando informações básicas do usuário, como nome, ma
 O usuário pode escolher adicionar uma nova atividade a partir de um menu.
 O menu inclui opções como "Monitoria," "Iniciação Científica," "Voluntariado," "Fetin," e "Estágio."
 As métricas para cada atividade são pré-definidas e armazenadas em um mapa associativo.
-#Armazenamento em Arquivo:
+# Armazenamento em Arquivo:
 
 As métricas da atividade são salvas em um arquivo de texto com o nome formatado como "metrics_nomeDoUsuario_nomeDaAtividade.txt".
 # Visualização de Todas as Métricas:
