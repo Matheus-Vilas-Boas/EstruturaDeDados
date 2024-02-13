@@ -1,0 +1,17 @@
+Metricas para a atividade: Voluntariado
+Nome: igor
+Curso: ET
+Numero de Matricula: 3231
+Periodo: 3
+Habilidades:
+adaptabilidade: 4
+autogerenciamento: 5
+autonomia: 5
+communication: 5
+criativdade: 4
+empatia: 4
+etica: 5
+inteligencia: 4
+lideranca: 4
+pensamento critico: 5
+responsabilidade: 5

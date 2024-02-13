@@ -52,3 +52,47 @@ int main()
 
     return 0;
 }
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+
+using namespace std;
+
+
+int main() 
+{
+
+    cout << fixed << setprecision(2);
+
+    string nome_arquivo_saida;
+    cin >> nome_arquivo_saida;
+    
+    ofstream arquivo(nome_arquivo_saida);
+
+    float numero;
+    cin >> numero;
+    while (numero != 0) 
+    {
+        arquivo << fixed << setprecision(2) << numero << " ";
+        cin >> numero;
+    }
+
+    arquivo.close();
+
+    ifstream arquivo_leitura(nome_arquivo_saida);
+    if (arquivo_leitura.is_open()) 
+    {
+        float numero_lido;
+        while (arquivo_leitura >> numero_lido) 
+        {
+            cout << numero_lido << " ";
+        }
+        arquivo_leitura.close();
+    } 
+    else 
+    {
+        cout << "Erro ao abrir o arquivo." << std::endl;
+    }
+
+    return 0;
+}
