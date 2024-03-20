@@ -4,7 +4,8 @@ using namespace std;
 
 void insertion_sort(int vetor[], int tam)
 {
-    int i, j, aux;
+    int i, aux;
+    int j;
     for (j = 1; i < tam; j++) // 1 + 3(n) + 3(n-1)
     {
         aux = vetor[j]; // 3(n-1)
@@ -21,7 +22,7 @@ void insertion_sort(int vetor[], int tam)
             }
         } 
         vetor[i+1] = aux;
-    } //O(n^2)
+    } //O(n²)
 }
 
 int main()
