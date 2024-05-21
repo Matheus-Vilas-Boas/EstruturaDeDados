@@ -133,4 +133,7 @@
 * 003 >> Onde está o estudante
 * 004 >> Matrícula
 
+### Algoritmos recursivos
 
+* 005 >> Potência
+* 006 >> Raiz quadrada
