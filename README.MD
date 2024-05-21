@@ -122,3 +122,15 @@
 * 039 >> OCR
 * 040 >> Análise de feridas
 * 041 >> Determinante e transposta
+
+# ALGORITMOS E ESTRUTURA DE DADOS
+
+## EXERCÍCOS MOODLE
+
+### Pesquisa em vetores
+* 001 >> Pesquisa sequencial
+* 002 >> Controle de acesso
+* 003 >> Onde está o estudante
+* 004 >> Matrícula
+
+
