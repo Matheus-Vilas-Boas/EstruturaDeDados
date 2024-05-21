@@ -137,3 +137,12 @@
 
 * 005 >> Potência
 * 006 >> Raiz quadrada
+
+### Ordenação
+
+* 007 >> Mostrando e contando
+* 008 >> Insertion sort
+* 009 >> Ordene um vetor
+
+
+
