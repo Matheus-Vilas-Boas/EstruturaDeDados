@@ -144,5 +144,5 @@
 * 008 >> Insertion sort
 * 009 >> Ordene um vetor
 
-
-
+### Hashing
+* 010 >> 
