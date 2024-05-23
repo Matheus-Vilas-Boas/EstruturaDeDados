@@ -148,4 +148,4 @@
 * 010 >> Hash_aux
 * 011 >> Sondagem Linear
 * 012 >> Insersão de Elementos
-* 013 >> Hash
+* 013 >> Pesquisa
