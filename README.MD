@@ -149,3 +149,4 @@
 * 011 >> Sondagem Linear
 * 012 >> Insersão de Elementos
 * 013 >> Pesquisa
+* 014 >> Remoção
