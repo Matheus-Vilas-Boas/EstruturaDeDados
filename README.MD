@@ -145,4 +145,6 @@
 * 009 >> Ordene um vetor
 
 ### Hashing
-* 010 >> 
+* 010 >> Hash_aux
+* 011 >> Sondagem Linear
+* 012 >> Sondagem Quadrática
