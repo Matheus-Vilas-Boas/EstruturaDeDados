@@ -147,4 +147,5 @@
 ### Hashing
 * 010 >> Hash_aux
 * 011 >> Sondagem Linear
-* 012 >> Sondagem Quadrática
+* 012 >> Insersão de Elementos
+* 013 >> Hash
